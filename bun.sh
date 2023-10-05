@@ -12,11 +12,11 @@ echo 'bun'
 echo 'bun'
 echo 'bun'
 
-export PATH="~/.bun/bin/bun:${PATH}"
 cd ~
 pwd
 ls -la /usr/local 
+export PATH="/usr/local/.bun/bin/bun:${PATH}"
 
 
 env | sort
-# ~/.bun/bin/bun install
+bun install
