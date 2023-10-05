@@ -1,3 +1,7 @@
+#!/usr/bin/env bash
+
+set +x
+
 echo 'bun'
 echo 'bun'
 echo 'bun'
