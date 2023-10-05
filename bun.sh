@@ -10,4 +10,5 @@ echo 'bun'
 
 export PATH="~/.bun/bin/bun:${PATH}"
 
-bun install
+
+~/.bun/bin/bun install
