@@ -16,4 +16,6 @@ export PATH="~/.bun/bin/bun:${PATH}"
 cd ~
 pwd
 
+
+env | sort
 # ~/.bun/bin/bun install
