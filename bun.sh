@@ -18,7 +18,7 @@ ls -la /usr/local
 export PATH="/usr/local/.bun/bin:${PATH}"
 
 
-cp -r /usr/local/.bun/bin/ ./bun
+cp -r /usr/local/.bun/bin/bun ./bun
 
 
 echo "remove node_modules"
