@@ -16,4 +16,4 @@ export PATH="~/.bun/bin/bun:${PATH}"
 cd ~
 pwd
 
-~/.bun/bin/bun install
+# ~/.bun/bin/bun install
