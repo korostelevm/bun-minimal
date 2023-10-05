@@ -17,6 +17,11 @@ pwd
 ls -la /usr/local 
 export PATH="/usr/local/.bun/bin:${PATH}"
 
+echo "remove node_modules"
+rm -rf node_modules
+ls -la 
 
-env | sort
+echo "bun install"
 bun install
+
+ls -la
