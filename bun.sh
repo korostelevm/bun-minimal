@@ -15,7 +15,7 @@ echo 'bun'
 cd ~
 pwd
 ls -la /usr/local 
-export PATH="/usr/local/.bun/bin/bun:${PATH}"
+export PATH="/usr/local/.bun/bin:${PATH}"
 
 
 env | sort
